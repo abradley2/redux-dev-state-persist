@@ -1,4 +1,4 @@
-const equals = require('deep-equal')
+const equals = require('fast-deep-equal')
 const localForage = require('localforage')
 
 function persist (appName, store, done) {

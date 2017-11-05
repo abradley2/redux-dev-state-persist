@@ -1,6 +1,6 @@
 {
   "name": "@abradley2/redux-dev-state-persist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple state persistence for developing with redux",
   "main": "dist.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "uglifyify": "^4.0.4"
   },
   "dependencies": {
-    "deep-equal": "^1.0.1",
+    "fast-deep-equal": "^1.0.0",
     "localforage": "^1.5.3"
   }
 }
