@@ -1,0 +1,31 @@
+{
+  "name": "@abradley2/redux-dev-state-persist",
+  "version": "1.0.0",
+  "description": "Simple state persistence for developing with redux",
+  "main": "dist.js",
+  "scripts": {
+    "test": "standard",
+    "lint": "standard --fix",
+    "build": "browserify ./redux-dev-state-persist -t bubleify -g uglifyify --standalone reduxDevStatePersist -o ./dist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abradley2/redux-dev-state-persist.git"
+  },
+  "author": "Tony Bradley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abradley2/redux-dev-state-persist/issues"
+  },
+  "homepage": "https://github.com/abradley2/redux-dev-state-persist#readme",
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "bubleify": "^0.7.0",
+    "standard": "^10.0.3",
+    "uglifyify": "^4.0.4"
+  },
+  "dependencies": {
+    "deep-equal": "^1.0.1",
+    "localforage": "^1.5.3"
+  }
+}
